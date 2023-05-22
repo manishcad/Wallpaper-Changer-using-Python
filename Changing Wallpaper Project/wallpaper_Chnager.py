@@ -24,5 +24,5 @@ if __name__ == '__main__':
         while True:
             for image_file in image_files:
                 change_wallpaper(image_file)
-                time.sleep(10)  # Change wallpaper every 2 minutes
+                time.sleep(30)  # Change wallpaper every 2 minutes
                 print(image_files)
